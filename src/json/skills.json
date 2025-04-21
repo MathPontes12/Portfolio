@@ -1,0 +1,63 @@
+{
+    "Front-end": [
+        {
+            "id": "1",
+            "nome": "React",
+            "tipo": "Front"
+        },
+        {
+            "id": "2",
+            "nome": "Tailwind-css",
+            "tipo": "Front"
+        },
+        {
+            "id": "3",
+            "nome": "Html 5",
+            "tipo": "Front"
+        },
+        {
+            "id": "4",
+            "nome":"Css 3",
+            "tipo": "Front"
+        },
+        {
+            "id": "5",
+            "nome":"Javascript",
+            "tipo": "Front"
+        },
+        {
+            "id": "6",
+            "nome":"Git",
+            "tipo": "Front"
+        },
+        {
+            "id": "7",
+            "nome":"Figma",
+            "tipo": "Front"
+        }
+    ],
+
+    
+    "Back-end": [
+        {
+            "id": "1",
+            "nome": "Node.js",
+            "tipo": "Back"
+        },
+        {
+            "id": "2",
+            "nome": "Express.js",
+            "tipo": "Back"
+        },
+        {
+            "id": "3",
+            "nome": "MongoDB",
+            "tipo": "Back"
+        },
+        {
+            "id": "4",
+            "nome":"MySQL",
+            "tipo": "Back"
+        }
+    ]
+}
