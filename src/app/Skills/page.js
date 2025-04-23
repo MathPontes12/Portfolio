@@ -30,7 +30,8 @@ const SkillsPage = () => {
 
             <Titles titulo="Habilidades" />
 
-            <main className="relative flex flex-col bg-[url(/images/bg-pc.png)] xl:w-[800px] xl:h-[500px] border-[24px]">
+            <main className="relative flex flex-col bg-[url(/images/bg-pc.png)] bg-cover xl:w-[800px] xl:h-[500px] 
+             border-[rgba(255,255,255,0.15)] border-[4px] outline-[24px] outline-black">
                 <div className="flex justify-start mx-[100px] mt-[30px] gap-[70px]">
                     <SkillsPastes texto="Front-end" aoClicar={aoClicar} />
                     <SkillsPastes texto="Back-end" aoClicar={aoClicar} />
