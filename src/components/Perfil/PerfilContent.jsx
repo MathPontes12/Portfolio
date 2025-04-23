@@ -21,13 +21,14 @@ const PerfilContent = () => {
                 <h1 className="text-brancoCinza text-[32px]">Oi, eu sou o Matheus</h1>
                 <article className="ml-[150px]">
                     <p className="text-brancoCinza text-[20px] leading-[40px]">
-                        Formado em Ciências da Computação. <br/>
+                        Formado em Ciências da Computação em 2025. <br/>
                         Atualmente, Desenvolvedor Full-Stack.
                     </p>
                 </article>
             </section>
-
+            
         </div>
+        
     )
 }
 
