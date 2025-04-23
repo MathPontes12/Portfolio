@@ -2,7 +2,7 @@
         {
             "id": 1,
             "titulo": "A cozinha da Jane",
-            "imagem": "a-cozinha-da-jane",
+            "imagem": "a-cozinha-da-Jane",
             "url": "https://a-cozinha-da-jane.vercel.app/" ,
             "descricao": "Projeto freelancer onde desenvolvi um projeto react, com Next.js e tailwind para estilização, de uma \"single page aplication\" com navegação entre menus para a empresa de alimentos \"A cozinha da jane\""
         }
