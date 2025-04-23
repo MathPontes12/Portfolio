@@ -15,10 +15,11 @@ const ProjectExperience = () => {
                 className="w-[1000px] h-[fit] bg-black flex flex-col gap-[10px]"
                 classH1="bg-brancoCinza text-[20px] p-[30px]"
                 titulo="Conheça um pouco dos meus projetos e experiências"
-                children={
-                    <Projects/>
-                }
-            />
+            >
+
+                <Projects />
+
+            </Card>
         </div>
 
     )
