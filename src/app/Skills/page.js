@@ -1,12 +1,11 @@
 'use client';
 
-import SkillsPastes from "@/components/Skill/Monitor/SkillsPastes/SkillsPastes"
-
 import Titles from "@/components/Titles/Titles";
-import WindowSkills from "@/components/Skill/WindowSkills/WindowSkills";
 import { useState } from "react"
 import Mobile from "@/components/Skill/SkillMobile/Mobile";
 import TaskBar from "@/components/Skill/Monitor/TaskBar/TaskBar";
+import WindowSkills from "@/components/Skill/Monitor/WindowSkills/WindowSkills";
+import SkillsPastes from "@/components/Skill/Monitor/SkillsPastes/SkillsPastes";
 
 const SkillsPage = () => {
 
