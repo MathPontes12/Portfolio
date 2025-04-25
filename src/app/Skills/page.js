@@ -1,10 +1,12 @@
 'use client';
 
-import SkillsPastes from "@/components/Skill/SkillsPastes/SkillsPastes"
-import TaskBar from "@/components/Skill/TaskBar/TaskBar";
+import SkillsPastes from "@/components/Skill/Monitor/SkillsPastes/SkillsPastes"
+
 import Titles from "@/components/Titles/Titles";
 import WindowSkills from "@/components/Skill/WindowSkills/WindowSkills";
 import { useState } from "react"
+import Mobile from "@/components/Skill/SkillMobile/Mobile";
+import TaskBar from "@/components/Skill/Monitor/TaskBar/TaskBar";
 
 const SkillsPage = () => {
 
@@ -26,11 +28,11 @@ const SkillsPage = () => {
 
 
     return (
-        <div className="flex flex-col items-center xl:mb-[70px]" >
+        <div className="flex flex-col items-center mb-[70px] xl:mt-[0] mt-[70px]" >
 
             <Titles titulo="Habilidades" />
 
-            <main className="relative flex flex-col bg-[url(/images/bg-pc.png)] bg-cover xl:w-[800px] xl:h-[500px] 
+            <main className="hidden relative xl:flex flex-col bg-[url(/images/bg-pc.png)] bg-cover xl:w-[800px] xl:h-[500px] 
              border-[rgba(255,255,255,0.15)] border-[4px] outline-[24px] outline-black">
                 <div className="flex justify-start mx-[100px] mt-[30px] gap-[70px]">
                     <SkillsPastes texto="Front-end" aoClicar={aoClicar} />
@@ -41,6 +43,9 @@ const SkillsPage = () => {
 
                 <TaskBar/>
             </main>
+
+            <Mobile/>
+
         </div>
 
     )

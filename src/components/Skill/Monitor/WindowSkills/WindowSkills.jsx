@@ -1,4 +1,4 @@
-import SkillCard from "../SkillCard/SkillCard"
+import SkillCard from "../Monitor/SkillCard/SkillCard"
 import skills from "@/json/skills.json"
 
 const WindowSkills = ({ tituloDaJanela, AoClicarNoCross }) => {
