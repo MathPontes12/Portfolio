@@ -9,10 +9,10 @@ import Titles from "@/components/Titles/Titles"
 const ProjectExperience = () => {
     return (
 
-        <div className="flex flex-col items-center mb-[80px]">
+        <div className="flex flex-col items-center mb-[80px] xl:mt-[0] mt-[70px]">
             <Titles titulo="Projetos/Experiências" />
             <Card
-                className="w-[1000px] h-[fit] bg-black flex flex-col gap-[10px]"
+                className="xl:w-[1000px] w-[300px] h-[fit] bg-black flex flex-col gap-[10px]"
                 classH1="bg-brancoCinza text-[20px] p-[30px]"
                 titulo="Conheça um pouco dos meus projetos e experiências"
             >

@@ -1,9 +1,35 @@
 [
-        {
-            "id": 1,
-            "titulo": "A cozinha da Jane",
-            "imagem": "a-cozinha-da-Jane",
-            "url": "https://a-cozinha-da-jane.vercel.app/" ,
-            "descricao": "Projeto freelancer onde desenvolvi um projeto react, com Next.js e tailwind para estilização, de uma \"single page aplication\" com navegação entre menus para a empresa de alimentos \"A cozinha da jane\""
-        }
-    ]
+    {
+        "id": 1,
+        "titulo": "A cozinha da Jane",
+        "imagem": "a-cozinha-da-Jane",
+        "urlPage": "https://a-cozinha-da-jane.vercel.app/",
+        "urlCode": "https://github.com/MathPontes12/a-cozinha-da-jane",
+        "descricao": "Projeto react freelancer com Next.js e tailwind para estilização, de uma \"single page aplication\" com navegação entre menus para a empresa de alimentos \"A cozinha da jane\"."
+    },
+    {
+        "id": 2,
+        "titulo": "Cadastro Portal",
+        "imagem": "portal",
+        "urlPage": "https://cadastro-blue.vercel.app/",
+        "urlCode": "https://github.com/MathPontes12/Cadastro",
+        "descricao": "Projeto react simulando a função de cadastro para um site. O cadastro é básico e funciona localmente, gravando dados no navegador para login e senha correspondente."
+
+    },
+    {
+        "id": 3,
+        "titulo": "Organo",
+        "imagem": "organo",
+        "urlPage": "https://organo-weld-tau.vercel.app/",
+        "urlCode": "https://github.com/MathPontes12/Organo",
+        "descricao": "Projeto react desenvolvido durante o curso de react da Alura. Com o organo, é possível criar cards e organizar colaboradores de acordo com funções e a área de atuação no grupo."
+    },
+    {
+        "id": 4,
+        "titulo": "LFCPM",
+        "imagem": "lfcpm",
+        "urlPage": "https://lfcpm-react.vercel.app/",
+        "urlCode": "https://github.com/MathPontes12/LfcpmReact",
+        "descricao": "Projeto react de uma \"single page aplication\" desenvolvido para o Laboratório de Farmacologia Cardiovascular e Plantas Medicinais da UERJ, mostrando um pouco da pesquisa ciêntífica realizada."
+    }
+]

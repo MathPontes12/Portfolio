@@ -1,5 +1,6 @@
 import Projetos from "@/json/projects.json"
 import Card from "../Cards/Card"
+import ButtonCard from "../Button/Button"
 
 const Projects = () => {
     return (
@@ -7,26 +8,30 @@ const Projects = () => {
 
             {Projetos.map((projeto) =>
 
-                <section key={projeto.id} className="flex items-center gap-[30px]">
+                <section key={projeto.id} className="flex xl:flex-row flex-col items-center xl:gap-[30px]">
                     <Card
-                        className="w-fit h-fit bg-azulEscuro border-[1px] border-brancoCinza items-start ml-[60px] my-[30px] peer"
-                        titulo={
-                            <a href={projeto.url} className="hover:opacity-50 cursor-pointer"  target="_blank" rel="noopener noreferrer">
-                                {projeto.titulo}
-                            </a>
-                        }
+                        className="w-fit h-fit bg-azulEscuro border-[1px] border-brancoCinza items-start xl:ml-[60px] my-[30px] peer"
+                        titulo={projeto.titulo}
                         classH1="bg-brancoCinza text-[20px] p-[10px]"
                         children={
-                            <img
-                                className="w-auto h-[200px] p-[30px]"
-                                src={`./images/Projetos-experiencia/${projeto.imagem}.png`} alt="imagem do projeto"
-                            />
+                            <div className="flex flex-col items-center p-[20px] gap-[30px]">
+                                <img
+                                    className="w-auto xl:h-[180px] h-[80px] "
+                                    src={`./images/Projetos-experiencia/${projeto.imagem}.png`} alt="imagem do projeto"
+                                />
+                                <div className="flex xl:gap-[50px] gap-[20px]">
+                                    <ButtonCard nome="Página" url={projeto.urlPage} className="bg-black text-[12px]"/>
+                                    <ButtonCard nome="Código" url={projeto.urlCode} className="bg-black text-[12px]"/>
+                                </div>
+                            </div>
                         }
                     />
-                    <div className={`bg-azulEscuro text-white border-2 border-white rounded-[40px] opacity-0 
-                                    w-[400px] h-fit p-[30px] mr-[60px] text-shadow-lg/100 text-shadow-black
-                                    transition-all duration-800 ease-in-out peer-hover:translate-x-4 peer-hover:opacity-100 }`}>
-                        <p className="whitespace-normal break-keep text-justify">
+                    <div className={`bg-azulEscuro text-white border-2 border-white rounded-[40px] xl:opacity-0 opacity-100 
+                                    xl:w-[400px] w-[250px] h-fit xl:p-[30px] p-[20px] xl:mr-[60px] xl:mb-0 mb-[50px] 
+                                    text-shadow-lg/100 text-shadow-black
+                                    transition-all duration-800 ease-in-out xl:peer-hover:translate-x-4 peer-hover:opacity-100
+                                    }`}>
+                        <p className="whitespace-normal xl:text-[16px] text-[12px] break-keep text-justify">
                             {projeto.descricao}
                         </p>
                     </div>

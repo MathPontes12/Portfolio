@@ -15,10 +15,10 @@ const MainPage = () => {
     }, []);
 
     return (
-        <div className="flex flex-col gap-[80px] mb-[100px]">
-            <Line className={`place-self-end transition-all duration-800 ease-in-out ${expandir ? "w-[594px]" : "w-[0px]"}`} />
+        <div className="flex flex-col gap-[80px] mb-[100px] xl:mt-[0] mt-[70px]">
+            <Line className={`place-self-end transition-all duration-800 ease-in-out ${expandir ? "xl:w-[594px] w-[250px]" : "w-[0px]"}`} />
             <PerfilContent />
-            <Line className={`transition-all duration-800 ease-in-out ${expandir ? "w-[594px]" : "w-[0px]"}`} />
+            <Line className={`transition-all duration-800 ease-in-out ${expandir ? "xl:w-[594px] w-[250px]" : "w-[0px]"}`} />
             <Sobre/>
         </div>
     )
