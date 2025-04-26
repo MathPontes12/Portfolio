@@ -1,6 +1,7 @@
 import Link from "next/link"
 import LogoPerfil from "./Logo"
 import MenuText from "./MenuText"
+import MenuMobileButtons from "./MenuMobileButtons"
 
 
 const MenuMobile = ({ clicarPraFechar }) => {
@@ -20,19 +21,19 @@ const MenuMobile = ({ clicarPraFechar }) => {
                 
                 <div className="flex flex-col items-center gap-[60px] pt-[20px]">
                     <Link href="/Main">
-                        <MenuText clicarPraFechar={clicarPraFechar}> Início </MenuText>
+                        <MenuMobileButtons clicarPraFechar={clicarPraFechar}> Início </MenuMobileButtons>
                     </Link>
 
                     <Link href="/Skills" >
-                        <MenuText clicarPraFechar={clicarPraFechar}> Habilidades </MenuText>
+                        <MenuMobileButtons clicarPraFechar={clicarPraFechar}> Habilidades </MenuMobileButtons>
                     </Link>
 
                     <Link href="/Project-Experience" >
-                        <MenuText clicarPraFechar={clicarPraFechar}> Projetos/<br />Experiências </MenuText>
+                        <MenuMobileButtons clicarPraFechar={clicarPraFechar}> Projetos/<br />Experiências </MenuMobileButtons>
                     </Link>
 
                     <Link href="/Contact" >                        
-                        <MenuText clicarPraFechar={clicarPraFechar}> Contato </MenuText>
+                        <MenuMobileButtons clicarPraFechar={clicarPraFechar}> Contato </MenuMobileButtons>
                     </Link>
                 </div>
             </div>

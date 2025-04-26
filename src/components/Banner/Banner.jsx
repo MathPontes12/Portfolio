@@ -29,7 +29,7 @@ const Banner = () => {
                     <Menu />
             </header>
 
-            <header className="xl:hidden block">
+            <header className="xl:hidden block mb-[50px]">
                 
                 {menuAparece ? <MenuMobile clicarPraFechar={clicarPraFechar}/> : <button onClick={() => aoClicar()}>
                     <img className="absolute top-[30px] left-[30px] w-[40px] h-auto" src="./images/banner/menuW.png" alt="botao de menu" />
