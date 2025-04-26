@@ -5,7 +5,7 @@ import Titles from "@/components/Titles/Titles"
 
 const ContactPage = () => {
     return(
-        <div className="flex flex-col items-center mb-[80px] xl:mt-[0] mt-[70px]">
+        <div className="flex flex-col items-center mb-[80px] xl:pt-[0] pt-[70px]">
             <Titles titulo="Contato" />
             <Card className="xl:w-[800px] xl:h-[420px] w-[300px] h-[fit] bg-black"
             classH1="bg-brancoCinza text-[20px] p-[30px]"

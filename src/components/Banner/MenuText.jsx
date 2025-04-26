@@ -1,10 +1,10 @@
 
 
-const MenuText = ({texto}) => {
+const MenuText = ({ children, clicarPraFechar }) => {
     return(
-        <p className="text-brancoCinza xl:text-[16px] text-[10px] hover:opacity-50">
-            {texto}
-        </p>
+        <button onClick={() => clicarPraFechar()} className="xl:text-brancoCinza text-azulEscuro xl:text-[16px] text-center text-[16px] hover:opacity-50">
+            {children}
+        </button>
     )
 }
 
