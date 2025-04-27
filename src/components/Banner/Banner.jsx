@@ -32,7 +32,7 @@ const Banner = () => {
             <header className="xl:hidden block mb-[50px]">
                 
                 {menuAparece ? <MenuMobile clicarPraFechar={clicarPraFechar}/> : <button onClick={() => aoClicar()}>
-                    <img className="absolute top-[30px] left-[30px] w-[40px] h-auto" src="./images/banner/menuW.webp" alt="botao de menu" />
+                    <img className="absolute top-[50px] left-[30px] w-[40px] h-auto" src="./images/banner/menuW.webp" alt="botao de menu" />
                 </button>}
             </header>
 

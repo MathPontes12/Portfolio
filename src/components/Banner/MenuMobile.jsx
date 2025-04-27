@@ -2,16 +2,27 @@ import Link from "next/link"
 import LogoPerfil from "./Logo"
 import MenuText from "./MenuText"
 import MenuMobileButtons from "./MenuMobileButtons"
+import { useEffect, useState } from "react"
 
 
 const MenuMobile = ({ clicarPraFechar }) => {
+
+    const [expandir, setExpandir] = useState(false);
+        
+            useEffect(() => {
+              setTimeout(() => setExpandir(true));
+            }, []);
+
+
     return (
         <nav>
             <button>
                 <img className="absolute top-[30px] left-[30px] w-[40px] h-auto" src="./images/banner/menuW.webp" alt="botao de menu" />
             </button>
 
-            <div className="fixed flex flex-col rounded-r-[20px] items-center bg-brancoCinza w-[200px] mt-[-24px] h-screen pt-[30px] gap-[100px]">
+            <div className={`fixed flex flex-col rounded-r-[20px] items-center bg-brancoCinza 
+            w-[200px] mt-[-24px] h-screen pt-[30px] gap-[100px]
+            transition-all duration-100 ease-in-out ${expandir ? "w-[250px]" : "w-[0px]"}`}>
                 <div className="flex w-full justify-evenly">
                     <LogoPerfil className="w-fit h-[70px]" />
                     <button onClick={() => clicarPraFechar()} className="pt-[5px]">

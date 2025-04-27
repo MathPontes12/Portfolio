@@ -17,7 +17,7 @@ const MainPage = () => {
     
 
     return (
-        <div className="flex flex-col gap-[80px] mb-[100px] xl:pt-[0] pt-[70px]">
+        <div className="flex flex-col gap-[80px] mb-[100px] xl:pt-[0] pt-[90px]">
             <Line className={`place-self-end transition-all duration-800 ease-in-out ${expandir ? "xl:w-[594px] w-[250px]" : "w-[0px]"}`} />
             <PerfilContent />
             <Line className={`transition-all duration-800 ease-in-out ${expandir ? "xl:w-[594px] w-[250px]" : "w-[0px]"}`} />
