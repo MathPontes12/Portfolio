@@ -10,7 +10,7 @@ const cutive = Cutive({
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="pt-br">
       <body
         className={cutive.className}
       >
