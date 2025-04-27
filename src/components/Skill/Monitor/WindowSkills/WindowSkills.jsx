@@ -7,10 +7,10 @@ const WindowSkills = ({ tituloDaJanela, AoClicarNoCross }) => {
         <div className="bg-black self-center w-[500px] h-[300px]">
 
             <header className="flex items-center justify-between bg-azultaskbar w-[500px] h-[25px] px-[10px]">
-                <img className="w-auto h-[20px]" src="/images/paste-icon.png" alt="icone de pasta" />
+                <img className="w-auto h-[20px]" src="/images/paste-icon.webp" alt="icone de pasta" />
                 <p className="text-[10px] ml-[20px] mt-[3px]">{tituloDaJanela}</p>
                 <button onClick={() => AoClicarNoCross()} className="hover:bg-[rgba(255,255,255,0.2)] cursor-pointer">
-                    <img className="w-auto h-15px" src="/images/buttons.png" alt="icones da janela" />
+                    <img className="w-auto h-15px" src="/images/buttons.webp" alt="icones da janela" />
                 </button>
             </header>
 

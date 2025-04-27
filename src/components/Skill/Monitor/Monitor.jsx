@@ -24,7 +24,7 @@ const Monitor = () => {
 
     return(
 
-        <main className="hidden relative xl:flex flex-col bg-[url(/images/bg-pc.png)] bg-cover xl:w-[800px] xl:h-[500px] 
+        <main className="hidden relative xl:flex flex-col bg-[url(/images/bg-pc.webp)] bg-cover xl:w-[800px] xl:h-[500px] 
         border-[rgba(255,255,255,0.15)] border-[4px] outline-[24px] outline-black">
            <div className="flex justify-start mx-[100px] mt-[30px] gap-[70px]">
                <SkillsPastes texto="Front-end" aoClicar={aoClicar} />

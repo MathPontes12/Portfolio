@@ -36,7 +36,7 @@ const Projects = () => {
                                 <button onClick={() => aoClicar(projeto.id)}>
                                     <img
                                         className="w-auto xl:h-[180px] h-[80px] "
-                                        src={`./images/Projetos-experiencia/${projeto.imagem}.png`} alt="imagem do projeto"
+                                        src={`./images/Projetos-experiencia/${projeto.imagem}.webp`} alt="imagem do projeto"
                                     />
                                 </button>
                                 <div className="flex xl:gap-[50px] gap-[20px]">

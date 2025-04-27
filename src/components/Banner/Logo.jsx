@@ -4,7 +4,7 @@ const LogoPerfil = ({ className }) => {
     return(
         <div className="flex xl:flex-col items-center gap-[20px] group">
                 <img className={`${className}`}
-                    src="/images/banner/perfil.png" alt="imagem perfil banner"
+                    src="/images/banner/perfil.webp" alt="imagem perfil banner"
                 />
                 <div className="xl:block hidden bg-black text-brancoCinza py-[12px] 
                 px-[20px] rounded-[70px] opacity-0 group-hover:opacity-100">
