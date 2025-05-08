@@ -1,6 +1,7 @@
 import { useState } from "react"
 import AppWindow from "./App/App/AppWindow"
 import MainMobile from "./App/Main/MainMobile"
+import Titles from "@/components/Titles/Titles"
 
 
 const Mobile = () => {
@@ -24,7 +25,7 @@ const Mobile = () => {
 
     return (
         <div className="xl:hidden w-full h-[100%] mt-[100px]">
- 
+            <Titles titulo="Habilidades" responsividade="xl:hidden block"/>
             {textoApp ? 
             <AppWindow nomeDoApp={textoApp} aoClicarEmVoltar={AoClicarEmVoltar}/> 
             :  
