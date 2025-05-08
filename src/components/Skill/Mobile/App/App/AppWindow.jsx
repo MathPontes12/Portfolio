@@ -17,7 +17,7 @@ const AppWindow = ({ nomeDoApp, aoClicarEmVoltar }) => {
                     />
                 )}
             </div>
-            <MobileButtons aoClicarEmVoltar={aoClicarEmVoltar} color="B" posicao="bottom-[130px] left-[130px]"/>
+            <MobileButtons aoClicarEmVoltar={aoClicarEmVoltar} color="B" posicao="mb-[130px] ml-[130px]"/>
         </div>
     )
 }
