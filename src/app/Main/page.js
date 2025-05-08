@@ -1,6 +1,7 @@
 'use client';
 
 import ScrollDownButton from "@/components/Button/ButtonArrowDown";
+import Footer from "@/components/Footer/Footer";
 import Line from "@/components/Perfil/Line"
 import PerfilContent from "@/components/Perfil/PerfilContent"
 import Sobre from "@/components/Sobre/Sobre";
@@ -18,7 +19,8 @@ const MainPage = () => {
     
 
     return (
-        <div className="flex flex-col gap-[20px] xl:mt-[150px] mb-[100px] xl:pt-[0] pt-[40px]">
+        <>
+        <div className="flex flex-col gap-[20px] xl:mt-[150px] mb-[80px] pt-[40px]">
             <div className="flex flex-col xl:gap-[80px] gap-[30px]">
             <Line className={`place-self-end transition-all duration-800 ease-in-out ${expandir ? "xl:w-[594px] w-[250px]" : "w-[0px]"}`} />
             <PerfilContent />
@@ -26,7 +28,10 @@ const MainPage = () => {
             </div>
             <ScrollDownButton/>
             <Sobre/>
+            
         </div>
+        <Footer />
+        </>
     )
 }
 

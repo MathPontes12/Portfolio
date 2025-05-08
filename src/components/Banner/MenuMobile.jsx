@@ -19,7 +19,7 @@ const MenuMobile = ({ clicarPraFechar }) => {
             </button>
 
             <div className={`fixed flex flex-col rounded-r-[20px] items-center bg-brancoCinza 
-            w-[200px] mt-[-24px] h-screen pt-[30px] gap-[100px]
+            w-[200px] mt-[-24px] h-screen pt-[30px] gap-[100px] z-50
             transition-all duration-100 ease-in-out ${expandir ? "w-[250px]" : "w-[0px]"}`}>
                 <div className="flex w-full justify-evenly">
                     <button onClick={() => clicarPraFechar()} className="pt-[5px]">
