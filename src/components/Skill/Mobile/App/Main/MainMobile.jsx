@@ -10,7 +10,7 @@ const MainMobile = ({ AoClicar, aoClicarEmVoltar }) => {
                 <AppIcons AoClicarNoApp={AoClicar} icone="B" nome="Back-end" className="bg-brancoCinza text-black" />
 
             </div>
-            <MobileButtons aoClicarEmVoltar={aoClicarEmVoltar} color="W"/>
+            <MobileButtons aoClicarEmVoltar={aoClicarEmVoltar} color="W" posicao="bottom-[130px] left-[134px]"/>
         </div>
     )
 }
