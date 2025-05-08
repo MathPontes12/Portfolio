@@ -22,16 +22,11 @@
         },
         {
             "id": "5",
-            "nome":"Javascript",
-            "tipo": "Front"
-        },
-        {
-            "id": "6",
             "nome":"Git",
             "tipo": "Front"
         },
         {
-            "id": "7",
+            "id": "6",
             "nome":"Figma",
             "tipo": "Front"
         }
@@ -57,6 +52,11 @@
         {
             "id": "4",
             "nome":"MySQL",
+            "tipo": "Back"
+        },
+        {
+            "id": "5",
+            "nome":"Javascript",
             "tipo": "Back"
         }
     ]
