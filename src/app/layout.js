@@ -1,6 +1,7 @@
 import { Cutive } from "next/font/google";
 import "./globals.css";
 import Banner from "@/components/Banner/Banner";
+import Footer from "@/components/Footer/Footer";
 
 const cutive = Cutive({
   subsets: ["latin"],
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
       >
         <Banner/>
         {children}
+        <Footer/>
       </body>
     </html>
   );

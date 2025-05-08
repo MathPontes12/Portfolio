@@ -8,5 +8,10 @@
 }
 
 body {
-  background: #0E2954;
+  background: linear-gradient(
+    to right,
+    #0E2954,
+    #1C4278,
+    #0E2954
+  );
 }

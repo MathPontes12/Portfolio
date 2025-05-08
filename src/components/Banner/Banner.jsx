@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from "react"
-import LogoPerfil from "./Logo"
 import Menu from "./Menu"
 import MenuMobile from "./MenuMobile"
 
@@ -23,9 +22,9 @@ const Banner = () => {
 
     return (
 
-        <>
-            <header className="xl:flex xl:flex-row hidden items-center justify-center my-[30px] gap-[80px]"> 
-                    <LogoPerfil />
+        <div className="flex">
+
+            <header className="xl:flex xl:flex-row xl:w-full hidden gap-[80px]"> 
                     <Menu />
             </header>
 
@@ -36,7 +35,7 @@ const Banner = () => {
                 </button>}
             </header>
 
-        </>
+        </div>
     )
 }
 

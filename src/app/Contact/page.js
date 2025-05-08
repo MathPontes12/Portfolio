@@ -1,26 +1,26 @@
 import Card from "@/components/Cards/Card"
 import MiniCard from "@/components/Cards/MiniCard"
-import Titles from "@/components/Titles/Titles"
 
 
 const ContactPage = () => {
-    return(
-        <div className="flex flex-col items-center mb-[80px] xl:pt-[0] pt-[90px]">
-            <Titles titulo="Contato" />
-            <Card className="xl:w-[800px] xl:h-[420px] w-[300px] h-[fit] bg-black"
-            classH1="bg-brancoCinza text-[20px] p-[30px]"
-            titulo="Me acompanhe nas redes sociais!">
-            
-                <section className="flex xl:flex-row flex-col xl:gap-[0] gap-[30px] xl:py-[0] py-[30px] items-center justify-evenly w-full h-full">
-                    <MiniCard nome="Instagram" url="https://www.instagram.com/math_pontes/"/>
-                    <MiniCard nome="Linkedin" url="https://www.linkedin.com/in/matheus-pontes-2b352b2bb/"/>
-                    <MiniCard nome="Github" url="https://github.com/MathPontes12"/>
-                </section>
+    return (
+        <div className="flex flex-col items-center xl:mt-[20px] mb-[67px] xl:pt-[0] pt-[30px]">
+            <div className="flex justify-center items-center bg-[url(/images/comentarios.png)] bg-cover 
+            xl:w-[500px] xl:h-[440px] w-[320px] h-[340px] xl:mr-0 mr-[50px] pt-[20px] ">
+                <p className="xl:text-[24px] text-[18px] xl:pb-0 pb-[40px] text-center font-bold">
+                    Me acompanhe <br/> nas <br/> redes sociais!
+                </p>
+            </div>
 
-            </Card>
-           
-            
-            
+            <section className="flex xl:gap-[40px] gap-[20px] 
+            items-center justify-center w-full h-full">
+                <MiniCard nome="Instagram" url="https://www.instagram.com/math_pontes/" />
+                <MiniCard nome="Linkedin" url="https://www.linkedin.com/in/matheus-pontes-2b352b2bb/" />
+                <MiniCard nome="Github" url="https://github.com/MathPontes12" />
+            </section>
+
+
+
         </div>
     )
 }

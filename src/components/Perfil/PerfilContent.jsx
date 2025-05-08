@@ -18,11 +18,11 @@ const PerfilContent = () => {
                             alt="imagem do perfil" />
         
             <section className="flex flex-col xl:items-start items-center xl:mt-0 mt-[60px] xl:gap-[70px] gap-[50px]">
-                <h1 className="text-brancoCinza xl:text-[32px] text-[26px] text-shadow-lg/100 text-shadow-black">
-                Oi, eu sou o Matheus
+                <h1 className="text-brancoCinza xl:text-[32px] text-[22px] text-shadow-lg/100 text-shadow-black">
+                Matheus Pontes
                 </h1>
                 <article className="xl:ml-[150px] ml-0">
-                    <p className="text-brancoCinza xl:px-0 px-[30px] xl:text-[20px] text-[16px] xl:text-start text-center leading-[40px]">
+                    <p className="text-brancoCinza xl:px-0 px-[30px] xl:text-[20px] text-[15px] xl:text-start text-center leading-[40px]">
                         Formado em Ciências da Computação em 2025. <br/>
                         Atualmente, Desenvolvedor Full-Stack.
                     </p>

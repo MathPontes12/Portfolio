@@ -21,13 +21,9 @@ const TaskBar = () => {
     });
 
     return (
-        <div className="absolute flex items-center bottom-0 bg-azultaskbar w-full h-[35px]" >
-            <img className="px-[16px]" src="/images/react-icon.webp" />
-            <div className="border-x-[1px] w-[150px] h-full flex items-center pl-[5px] bg-brancoCinza opacity-50">
-                <img className="w-auto h-[20px]" src="./images/Lupa.webp" alt="icone de lupa" />
-            </div>
-            <img className="w-auto h-[30px] pl-[470px] pr-[5px]" src="./images/wifi.webp" alt="icone de wifi" />
-            <div className="fex flex-col text-[9px] text-center mt-[2px]">
+        <div className="absolute flex items-center bottom-[-41px] left-[373px] w-fit h-[35px] gap-[4px]" >
+            <img className="w-auto h-[15px] " src="./images/wifi.webp" alt="icone de wifi" />
+            <div className="fex flex-col text-[6px] text-center mt-[2px]">
                 <p> {horaAtual(DataHora)} </p>
                 <p> {dataAtual(DataHora)} </p>
             </div>

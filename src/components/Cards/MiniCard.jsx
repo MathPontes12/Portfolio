@@ -3,9 +3,9 @@ import ButtonCard from "../Button/Button"
 
 const MiniCard = ({ nome, url }) => {
     return (
-        <div className="flex xl:flex-col items-center xl:gap-[40px] gap-[40px]">
-            <img className="w-[60px] h-[60px]" src={`./images/${nome}.webp`} alt="logo da rede social" />
-            <ButtonCard nome={nome} url={url} className="bg-azulEscuro xl:text-[15px] text-[12px]"/>
+        <div className="flex flex-col items-center xl:gap-[10px] gap-[20px]">
+            <img className="xl:w-[200px] xl:h-[200px] w-[100px] h-[100px]" src={`./images/${nome}.webp`} alt="logo da rede social" />
+            <ButtonCard nome={nome} url={url} className="bg-black xl:text-[15px] text-[10px]"/>
         </div>
     )
 }

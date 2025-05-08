@@ -1,6 +1,4 @@
 import Link from "next/link"
-import LogoPerfil from "./Logo"
-import MenuText from "./MenuText"
 import MenuMobileButtons from "./MenuMobileButtons"
 import { useEffect, useState } from "react"
 
@@ -24,9 +22,8 @@ const MenuMobile = ({ clicarPraFechar }) => {
             w-[200px] mt-[-24px] h-screen pt-[30px] gap-[100px]
             transition-all duration-100 ease-in-out ${expandir ? "w-[250px]" : "w-[0px]"}`}>
                 <div className="flex w-full justify-evenly">
-                    <LogoPerfil className="w-fit h-[70px]" />
                     <button onClick={() => clicarPraFechar()} className="pt-[5px]">
-                        <img className=" w-[40px] h-auto" src="./images/banner/menuB.webp" alt="botao de menu" />
+                        <img className="ml-[100px] mt-[15px] w-[40px] h-auto" src="./images/banner/menuB.webp" alt="botao de menu" />
                     </button>
                 </div>
                 

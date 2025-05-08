@@ -8,9 +8,9 @@ import Monitor from "@/components/Skill/Monitor/Monitor";
 const SkillsPage = () => {
 
     return (
-        <div className="flex flex-col items-center mb-[70px] xl:pt-[0px] pt-[90px]" >
+        <div className="flex flex-col items-center xl:ml-[-6px] xl:pt-[60px] pb-[150px] pt-[90px]
+        xl:bg-[url(/images/bgSkill.png)] h-[745px] bg-cover" >
 
-            <Titles titulo="Habilidades" />
             <Monitor/>  
             <Mobile/>
             
@@ -20,3 +20,4 @@ const SkillsPage = () => {
 }
 
 export default SkillsPage
+
