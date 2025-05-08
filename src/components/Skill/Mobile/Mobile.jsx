@@ -23,7 +23,7 @@ const Mobile = () => {
 
 
     return (
-        <div className="xl:hidden border-x-[12px] border-b-[21px] border-t-[12px] rounded-[35px] w-[280px] h-[570px]">
+        <div className="xl:hidden w-full h-fit">
  
             {textoApp ? 
             <AppWindow nomeDoApp={textoApp} aoClicarEmVoltar={AoClicarEmVoltar}/> 
