@@ -6,7 +6,7 @@ const ContactPage = () => {
         <>
         <div className="flex flex-col items-center xl:mt-[20px] pt-[50px] justify-center gap-[20px]">
             <div className="flex justify-center items-center bg-[url(/images/comentarios.png)] bg-cover 
-            xl:w-[500px] xl:h-[440px] w-[320px] h-[340px] xl:mr-0 mr-[50px] pt-[20px] ">
+            xl:w-[500px] xl:h-[440px] w-[320px] h-[340px] pt-[20px] ">
                 <p className="xl:text-[24px] text-[18px] xl:pb-0 pb-[40px] text-center font-bold">
                     Me acompanhe <br/> nas <br/> redes sociais!
                 </p>
