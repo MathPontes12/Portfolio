@@ -9,11 +9,11 @@
     },
     {
         "id": 2,
-        "titulo": "Cadastro Portal",
-        "imagem": "portal",
-        "urlPage": "https://cadastro-blue.vercel.app/",
-        "urlCode": "https://github.com/MathPontes12/Cadastro",
-        "descricao": "Projeto react simulando a função de cadastro para um site. O cadastro é básico e funciona localmente, gravando dados no navegador para login e senha correspondente."
+        "titulo": "Finanças Dashboard",
+        "imagem": "financas",
+        "urlPage": "https://financas-dashboard.vercel.app/",
+        "urlCode": "https://github.com/MathPontes12/Financas-Dashboard",
+        "descricao": "Projeto react de um dashboard com objetivo de organizar e gerir as finanças do usuário, mostrando transações de entrada, saída e gerar um saldo, assim como, mostrar cada transação e a possibilidade de deletar cada uma."
 
     },
     {
@@ -31,5 +31,14 @@
         "urlPage": "https://lfcpm-react.vercel.app/",
         "urlCode": "https://github.com/MathPontes12/LfcpmReact",
         "descricao": "Projeto react de uma \"single page aplication\" desenvolvido para o Laboratório de Farmacologia Cardiovascular e Plantas Medicinais da UERJ, mostrando um pouco da pesquisa ciêntífica realizada."
+    },
+    {
+        "id": 5,
+        "titulo": "Cadastro Portal",
+        "imagem": "portal",
+        "urlPage": "https://cadastro-blue.vercel.app/",
+        "urlCode": "https://github.com/MathPontes12/Cadastro",
+        "descricao": "Projeto react simulando a função de cadastro para um site. O cadastro é básico e funciona localmente, gravando dados no navegador para login e senha correspondente."
+
     }
 ]
