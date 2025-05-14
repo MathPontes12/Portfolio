@@ -16,7 +16,7 @@ const Projects = () => {
             setExibir(false)
         }
         setNomeClicado(nomeProjeto)
-        
+
     }
 
 
@@ -33,12 +33,16 @@ const Projects = () => {
                         classH1="bg-brancoCinza text-[20px] p-[10px]"
                         children={
                             <div className="flex flex-col items-center p-[20px] gap-[30px]">
-                                <button onClick={() => aoClicar(projeto.id)}>
+                                <button onClick={() => aoClicar(projeto.id)} className="xl:hidden block">
                                     <img
                                         className="w-auto xl:h-[180px] h-[80px] "
                                         src={`./images/Projetos-experiencia/${projeto.imagem}.webp`} alt="imagem do projeto"
                                     />
                                 </button>
+                                <img
+                                    className="w-auto xl:h-[180px] h-[80px] xl:block hidden"
+                                    src={`./images/Projetos-experiencia/${projeto.imagem}.webp`} alt="imagem do projeto"
+                                />
                                 <div className="flex xl:gap-[50px] gap-[20px]">
                                     <ButtonCard nome="Página" url={projeto.urlPage} className="bg-black text-[12px]" />
                                     <ButtonCard nome="Código" url={projeto.urlCode} className="bg-black text-[12px]" />
@@ -57,7 +61,7 @@ const Projects = () => {
                         </p>
                     </div>
 
-                    {exibir && nomeClicado == projeto.id &&(
+                    {exibir && nomeClicado == projeto.id && (
                         <div className={`bg-azulEscuro text-white border-2 border-white rounded-[40px] xl:opacity-0 opacity-100 
                             xl:w-[400px] w-[250px] h-fit xl:p-[30px] p-[20px] xl:mr-[60px] xl:mb-0 mb-[50px] 
                             text-shadow-lg/100 text-shadow-black
