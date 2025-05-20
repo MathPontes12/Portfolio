@@ -18,6 +18,14 @@
     },
     {
         "id": 3,
+        "titulo": "Weather",
+        "imagem": "clima",
+        "urlPage": "https://weather-app-omega-lime.vercel.app/",
+        "urlCode": "https://github.com/MathPontes12/WeatherApp",
+        "descricao": "Projeto React desenvolvido por mim, disponibilizando ao usuário o tempo e clima atual nas cidades específicas, assim como, a previsão de tempo para os próximos dias. O projeto teve integração com API weather fornecidade pela hgbrasil.com, pela limitação de consultas da chave gratuita foi necessária a adoção de um select para limitar as escolhas de cidades."
+    },
+    {
+        "id": 4,
         "titulo": "Organo",
         "imagem": "organo",
         "urlPage": "https://organo-weld-tau.vercel.app/",
@@ -25,7 +33,7 @@
         "descricao": "Projeto react desenvolvido durante o curso de react da Alura. Com o organo, é possível criar cards e organizar colaboradores de acordo com funções e a área de atuação no grupo."
     },
     {
-        "id": 4,
+        "id": 5,
         "titulo": "LFCPM",
         "imagem": "lfcpm",
         "urlPage": "https://lfcpm-react.vercel.app/",
@@ -33,7 +41,7 @@
         "descricao": "Projeto react de uma \"single page aplication\" desenvolvido para o Laboratório de Farmacologia Cardiovascular e Plantas Medicinais da UERJ, mostrando um pouco da pesquisa ciêntífica realizada."
     },
     {
-        "id": 5,
+        "id": 6,
         "titulo": "Cadastro Portal",
         "imagem": "portal",
         "urlPage": "https://cadastro-blue.vercel.app/",
