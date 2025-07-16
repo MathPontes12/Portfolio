@@ -1,6 +1,14 @@
-[
+[   
     {
         "id": 1,
+        "titulo": "Tenis E-commerce",
+        "imagem": "tenis-e-commerce",
+        "urlPage": "https://tenis-e-commerce.vercel.app/",
+        "urlCode": "https://github.com/MathPontes12/Tenis_E-commerce",
+        "descricao": "Projeto react com Next.js e tailwind para estilização, de uma \"single page aplication\" com navegação entre menus, filtros de busca, carrinho e conexão ao Whatsapp para facilitar a venda e solicitação de informações."
+    },
+    {
+        "id": 2,
         "titulo": "A cozinha da Jane",
         "imagem": "a-cozinha-da-Jane",
         "urlPage": "https://a-cozinha-da-jane.vercel.app/",
@@ -8,7 +16,7 @@
         "descricao": "Projeto react freelancer com Next.js e tailwind para estilização, de uma \"single page aplication\" com navegação entre menus para a empresa de alimentos \"A cozinha da jane\"."
     },
     {
-        "id": 2,
+        "id": 3,
         "titulo": "Finanças Dashboard",
         "imagem": "financas",
         "urlPage": "https://financas-dashboard.vercel.app/",
@@ -17,20 +25,12 @@
 
     },
     {
-        "id": 3,
+        "id": 4,
         "titulo": "Weather",
         "imagem": "clima",
         "urlPage": "https://weather-app-omega-lime.vercel.app/",
         "urlCode": "https://github.com/MathPontes12/WeatherApp",
         "descricao": "Projeto React desenvolvido por mim, disponibilizando ao usuário o tempo e clima atual nas cidades específicas, assim como, a previsão de tempo para os próximos dias. O projeto teve integração com API weather fornecidade pela hgbrasil.com, pela limitação de consultas da chave gratuita foi necessária a adoção de um select para limitar as escolhas de cidades."
-    },
-    {
-        "id": 4,
-        "titulo": "Organo",
-        "imagem": "organo",
-        "urlPage": "https://organo-weld-tau.vercel.app/",
-        "urlCode": "https://github.com/MathPontes12/Organo",
-        "descricao": "Projeto react desenvolvido durante o curso de react da Alura. Com o organo, é possível criar cards e organizar colaboradores de acordo com funções e a área de atuação no grupo."
     },
     {
         "id": 5,
@@ -47,6 +47,5 @@
         "urlPage": "https://cadastro-blue.vercel.app/",
         "urlCode": "https://github.com/MathPontes12/Cadastro",
         "descricao": "Projeto react simulando a função de cadastro para um site. O cadastro é básico e funciona localmente, gravando dados no navegador para login e senha correspondente."
-
     }
 ]
